@@ -16,7 +16,7 @@ MASTER_ADMIN_KEY = "PASTE_YOUR_KEY_HERE"
 
 # PATHS
 BASE_PATH = "."
-VECTOR_DB_PATH = f"{BASE_PATH}/vector_db"
+VECTOR_DB_PATH = BASE_PATH
 DEVELOPER_EMAIL = "torahaideveloper@gmail.com"
 
 # Master Database Config
