@@ -21,13 +21,12 @@ DEVELOPER_EMAIL = "torahaideveloper@gmail.com"
 
 # Master Database Config
 BOOKS_CONFIG = {
-    "Genesis":     {"path": "output/genesis_translated_master.json",     "prefix": "Gen", "chapters": 50},
-    "Exodus":      {"path": "output/exodus_translated_master.json",      "prefix": "Exo", "chapters": 40},
-    "Leviticus":   {"path": "output/leviticus_translated_master.json",    "prefix": "Lev", "chapters": 27},
-    "Numbers":     {"path": "output/numbers_translated_master.json",      "prefix": "Num", "chapters": 36},
-    "Deuteronomy": {"path": "output/deuteronomy_translated_master.json",  "prefix": "Deu", "chapters": 34}
+    "Genesis":     {"path": "genesis_translated_master.json",     "prefix": "Gen", "chapters": 50},
+    "Exodus":      {"path": "exodus_translated_master.json",      "prefix": "Exo", "chapters": 40},
+    "Leviticus":   {"path": "leviticus_translated_master.json",    "prefix": "Lev", "chapters": 27},
+    "Numbers":     {"path": "numbers_translated_master.json",      "prefix": "Num", "chapters": 36},
+    "Deuteronomy": {"path": "deuteronomy_translated_master.json",  "prefix": "Deu", "chapters": 34}
 }
-
 # --- HELPER: ROBUST ROOT DISPLAY ---
 def display_roots(ai_data):
     roots = ai_data.get('hebrew_roots', [])
